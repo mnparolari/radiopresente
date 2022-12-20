@@ -1,0 +1,969 @@
+/*FONT*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/**----------------------------------INDEX----------------------------------**/
+
+/**----------HEADER----------**/
+
+.navegacion {
+  width: 100%;
+  height: 80px;
+  font-family: "Encode Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navegacion img {
+  width: 80px;
+  height: 80px;
+}
+
+.navegacion .barra a {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #6b7371ff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navegacion:hover{
+  font-size: #75271fff;
+}
+
+.navegacion .redes a img {
+  height: 30px;
+  width: 30px;
+  transition: 1s;
+}
+
+.navegacion .redes a img:hover{
+  transform: scale(1.5);
+}
+
+.navegacion .vivo a {
+  color: #6b7371ff;
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+  border: #75271fff 2px solid;
+}
+
+/**----------MAIN----------**/
+
+.laRadioIndex {
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/radio-walsh.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.laRadioIndex h1 {
+  font-family: "Encode Sans", sans-serif;
+  font-weight: bold;
+  font-size: 5rem;
+  text-align: center;
+  color: whitesmoke;
+  background-color: rgba(107, 115, 113, 0.5);
+}
+
+.bannersIndexOne {
+  width: 100%;
+  height: 500px;
+  padding-left: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "gatillo colabora"
+    "gatillo taller";
+}
+
+.bannersIndexOne .left {
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/cobertura7.jpg);
+  opacity: 0.9;
+  background-size: cover;
+  background-position: center center;
+  border: white 20px solid;
+  grid-area: gatillo;
+}
+
+.bannersIndexOne .right {
+  width: 600px;
+  height: 500px;
+  text-align: center;
+}
+
+.bannersIndexOne .right .colabora {
+  width: 600px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/radio-flor.jpeg);
+  background-position: center center;
+  border: white 20px solid;
+  grid-area: colabora;
+}
+
+.bannersIndexOne .right .colabora h2 {
+  font-family: "Encode Sans", sans-serif;
+  font-size: 2rem;
+  color: whitesmoke;
+  background-color: rgba(107, 115, 113, 0.5);
+}
+
+.bannersIndexOne .right .colabora a {
+  text-decoration: none;
+}
+
+.bannersIndexOne .right .taller {
+  width: 600px;
+  height: 250px;
+  background-image: url(../img/taller.png);
+  background-size: cover;
+  background-position: center;
+  border: white 20px solid;
+  grid-area: taller;
+}
+
+.ccdtyeIndex {
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/fondo.jpg);
+  opacity: 0.9;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+.ccdtyeIndex h2 {
+  font-family: "Encode Sans", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  color: whitesmoke;
+  background-color: rgba(107, 115, 113, 0.5);
+}
+
+.bannersIndexTwo {
+  width: 100%;
+  height: 500px;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.bannersIndexTwo .leftTwo {
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/ABO.jpg);
+  opacity: 0.9;
+  background-size: cover;
+  background-position: center center;
+  border: white 20px solid;
+}
+
+.bannersIndexTwo .rightTwo {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: white 20px solid;
+}
+
+.sumateIndex {
+  width: 100%;
+  height: 800px;
+  background-image: url(../img/hacetuprograma.jpg);
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-position: top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.sumateIndex h2 {
+  font-family: "Encode Sans", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  color: whitesmoke;
+  background-color: rgba(107, 115, 113, 0.5);
+}
+
+/**----------FOOTER----------**/
+
+.piePagina {
+  width: 100%;
+  height: 130px;
+  background-color: #75271fff;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.piePagina .logoOlimpo img {
+  width: 130px;
+  height: 100px;
+  transition: 4s;
+}
+
+.piePagina .logoOlimpo img:hover {
+  transform: rotateY(360deg);
+}
+
+.piePagina .direccion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: black 1px solid;
+}
+
+.piePagina .direccion p {
+  font-family: "Encode Sans", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+.piePagina .logoPresente img {
+  width: 70px;
+  height: 70px;
+  transition: 4s;
+}
+
+.piePagina .logoPresente img:hover {
+  transform: rotateY(360deg);
+}
+
+/**----------------------------------lARADIO----------------------------------**/
+
+/**----------MAIN----------**/
+
+.laRadioEncabezado {
+  width: 100%;
+  height: 300px;
+  background-image: url(../img/radio-walsh.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.laRadioCuerpo {
+  font-family: "Encode Sans", sans-serif;
+  background-color: rgba(107, 115, 113, 0.3);
+}
+
+.laRadioCuerpo h1 {
+  font-size: xx-large;
+  padding-left: 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #75271fff;
+}
+
+.laRadioCuerpo p {
+  padding-left: 200px;
+}
+
+.laRadioFoto {
+  width: 100%;
+  height: 300px;
+  background-image: url(../img/radio-dentro.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.laRadioQueHacemos {
+  font-family: "Encode Sans", sans-serif;
+  background-color: rgba(107, 115, 113, 0.3);
+  padding-left: 200px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-right: 200px;
+}
+
+.laRadioQueHacemos h2 {
+  color: #75271fff;
+}
+
+.laRadioQueHacemos p {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.laRadioQueHacemos h3 {
+  color: #75271fff;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: x-large;
+  text-decoration: underline;
+}
+
+.laRadioQueHacemos .gridContainer-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.laRadioQueHacemos .gridContainer-1 .principalImage-1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.laRadioQueHacemos .gridContainer-1 .principalImage-1 img {
+  width: 100%;
+  height:100%;
+}
+
+.laRadioQueHacemos .gridContainer-1 .secondImage-1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.laRadioQueHacemos .gridContainer-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.laRadioQueHacemos .gridContainer-2 .principalImage-2 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.laRadioQueHacemos .gridContainer-2 .principalImage-2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.laRadioQueHacemos .gridContainer-2 .secondImage-2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.laRadioQueHacemos .gridContainer-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.laRadioQueHacemos .gridContainer-3 .principalImage-3 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.laRadioQueHacemos .gridContainer-3 .principalImage-3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.laRadioQueHacemos .gridContainer-3 .secondImage-3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.laRadioQueHacemos .gridContainer-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.laRadioQueHacemos .gridContainer-4 .principalImage-4 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
+
+.laRadioQueHacemos .gridContainer-4 .principalImage-4 img {
+  width: 100%;
+  height: 100%;
+}
+
+.laRadioQueHacemos .gridContainer-4 .firstImage-4 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.laRadioQueHacemos .gridContainer-4 .firstImage-4 img {
+  width: 100%;
+  height: 100%;
+}
+
+.laRadioQueHacemos .gridContainer-4 .secondImage-4 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 7;
+}
+
+.laRadioQueHacemos .gridContainer-4 .secondImage-4 img {
+  width: 100%;
+  height: 100%;
+}
+
+.laRadioQueHacemos .gridContainer-5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.laRadioQueHacemos .gridContainer-5 .principalImage-5 {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.laRadioQueHacemos .gridContainer-5 .principalImage-5 img {
+  width: 100%;
+  height: 100%;
+}
+
+.laRadioQueHacemos .gridContainer-5 .firstImage-5 {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
+
+.laRadioQueHacemos .gridContainer-5 .firstImage-5 img {
+  width: 100%;
+  height: 100%;
+}
+
+.laRadioQueHacemos .gridContainer-5 .secondImage-5 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
+
+.laRadioQueHacemos .gridContainer-5 .secondImage-5 img {
+  width: 100%;
+  height: 100%;
+}
+
+.laRadioQueHacemos .gridContainer-5 .thirdImage-5 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
+
+.laRadioQueHacemos .gridContainer-5 .thirdImage-5 img {
+  width: 100%;
+  height: 100%;
+}
+
+/**----------------------------------PROGRAMACION----------------------------------**/
+
+/**----------MAIN----------**/
+
+.programacionEncabezado {
+  width: 100%;
+  height: 300px;
+  background-image: url(../img/consola.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.programacionCuerpo {
+  font-family: "Encode Sans", sans-serif;
+  background-color: rgba(107, 115, 113, 0.3);
+  text-align: center;
+}
+
+.programacionCuerpo h1 {
+  font-size: xx-large;
+  color: #75271fff;
+}
+
+.programacionCuerpo img {
+  margin: 20px;
+}
+
+/**----------------------------------SUMATE----------------------------------**/
+
+/**----------MAIN----------**/
+
+.sumateEncabezado {
+  width: 100%;
+  height: 300px;
+  background-image: url(../img/radio-noche.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.sumateCuerpo {
+  font-family: "Encode Sans", sans-serif;
+  background-color: rgba(107, 115, 113, 0.3);
+}
+
+.sumateCuerpo h1 {
+  font-size: xx-large;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #75271fff;
+  text-align:center;
+}
+
+.sumateCuerpo p {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.sumateFormulario {
+  font-family: "Encode Sans", sans-serif;
+  background-color: rgba(107, 115, 113, 0.3);
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.sumateFormulario .divSeparador {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/**----------------------------------EXCCDTYE----------------------------------**/
+
+/**----------MAIN----------**/
+
+.olimpoEncabezado {
+  width: 100%;
+  height: 300px;
+  background-image: url(../img/fondo.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.olimpoCuerpo {
+  font-family: "Encode Sans", sans-serif;
+  background-color: rgba(107, 115, 113, 0.3);
+}
+
+.olimpoCuerpo h1 {
+  font-size: xx-large;
+  padding-left: 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #75271fff;
+}
+
+.olimpoCuerpo p {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.olimpoCuerpo h2 {
+  font-size: x-large;
+  padding-left: 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #75271fff;
+}
+
+.olimpoCuerpo h3 {
+  font-size: large;
+  padding-left: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #75271fff;
+}
+
+.olimpoFoto1 {
+  width: 100%;
+  height: 300px;
+  background-image: url(../img/fondoo.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.olimpoFoto2 {
+  width: 100%;
+  height: 300px;
+  background-image: url(../img/fondooo.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/**----------------------------------MEDIA QUERY----------------------------------**/
+
+/**----------INDEX----------**/
+
+@media screen and (max-width: 1075px) {
+  .bannersIndexOne {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0px;
+  }
+  .bannersIndexOne .left {
+    width: 100%;
+    height: 670px;
+  }
+  .bannersIndexOne .right {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+  }
+  .bannersIndexTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .navegacion {
+    flex-direction: column;
+    height: 250px;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .piePagina {
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+  }
+  .laRadioIndex h1 {
+    font-size: 3em;
+  }
+  .ccdtyeIndex h2{
+    font-size: 2em;
+  }
+  .sumateIndex h2 {
+    font-size: 2em;
+  }
+  .bannersIndexOne .right {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bannersIndexOne .right .colabora {
+    height: 200px;
+    border: white 10px solid;
+  }
+  .bannersIndexOne .right .taller {
+    height: 250px;
+    border: white 10px solid;
+  }
+}  
+
+@media screen and (max-width: 610px) {
+  .piePagina .direccion iframe {
+    width: 300px;
+  }
+  .bannersIndexOne .right {
+    width: 100px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bannersIndexOne .right .colabora {
+    height: 300px;
+    border: white 10px solid;
+  }
+  .bannersIndexOne .right .taller {
+    height: 250px;
+    border: white 10px solid;
+  }
+}  
+
+@media screen and (max-width: 605px) {
+  .bannersIndexTwo .rightTwo iframe {
+    width: 400px;
+  }
+  .bannersIndexOne .right .colabora {
+    width: 450px;
+    border: white 10px solid;
+  }
+  .bannersIndexOne .right .taller {
+    width: 450px;
+    height: 250px;
+    border: white 10px solid;
+  }
+}  
+
+@media screen and (max-width: 560px){
+  .navegacion {
+    height: 300px;
+  }
+  .navegacion .barra a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .bannersIndexTwo .rightTwo iframe {
+    width: 300px;
+  }
+  .bannersIndexOne .right {
+    width: 100px;
+    height: 450px;
+  }
+  .bannersIndexOne .right .colabora {
+    width: 350px;
+    border: white 10px solid;
+  }
+  .bannersIndexOne .right .colabora h2 {
+    font-size: 1.5em;
+  }
+  .bannersIndexOne .right .taller {
+    width: 350px;
+    height: 200px;
+    border: white 10px solid;
+  }
+}  
+
+@media screen and (max-width: 415px) {
+  .piePagina .direccion iframe {
+    width: 200px;
+  }
+}  
+
+@media screen and (max-width: 350px) {
+  .bannersIndexOne .right {
+    width: 100px;
+    height: 350px;
+  }
+  .bannersIndexOne .right .colabora {
+    width: 300px;
+    border: white 10px solid;
+  }
+  .bannersIndexOne .right .colabora h2 {
+    font-size: 1.5em;
+  }
+  .bannersIndexOne .right .taller {
+    width: 300px;
+    height: 200px;
+    border: white 10px solid;
+  }
+  .laRadioIndex h1 {
+    font-size: 2em;
+  }
+  .ccdtyeIndex h2{
+    font-size: 1.5em;
+  }
+  .sumateIndex h2 {
+    font-size: 1.5em;
+  }
+}  
+
+/**----------------------------------MEDIA QUERY----------------------------------**/
+
+/**----------LARADIO----------**/
+
+@media screen and (max-width: 1075px) {
+  .laRadioCuerpo h1{
+    padding-left: 0px;
+    text-align: center;
+  }
+  .laRadioCuerpo p {
+    padding-left: 0px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .laRadioQueHacemos h3{
+    font-size: large;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .laRadioQueHacemos{
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+  .laRadioQueHacemos h3{
+    font-size: large;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .laRadioQueHacemos h2 {
+    text-align: center;
+  }
+  .laRadioQueHacemos p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    .laRadioQueHacemos .gridContainer-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .laRadioQueHacemos .gridContainer-1 .principalImage-1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    }
+  .laRadioQueHacemos .gridContainer-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+    
+  .laRadioQueHacemos .gridContainer-2 .principalImage-2 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .laRadioQueHacemos .gridContainer-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .laRadioQueHacemos .gridContainer-3 .principalImage-3 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
+
+
+/**----------------------------------MEDIA QUERY----------------------------------**/
+
+/**----------PROGRAMACIÓN----------**/
+
+@media screen and (max-width: 1075px) {
+  .programacionCuerpo img {
+    width: 100%;
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .programacionCuerpo h1 {
+    font-size: x-large;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .programacionCuerpo h1 {
+    font-size: large;
+  }
+}
+
+/**----------------------------------MEDIA QUERY----------------------------------**/
+
+/**----------SUMATE----------**/
+
+@media screen and (max-width: 600px) {  
+  .sumateCuerpo h1 {
+    text-align: left;
+    padding-left: 15px;
+  }
+  .sumateCuerpo p {
+    text-align: left;
+    padding-left: 15px;
+  }
+}
+
+/**----------------------------------MEDIA QUERY----------------------------------**/
+
+/**----------CCDTYE----------**/
+@media screen and (max-width: 700px){
+.olimpoCuerpo h1 {
+  padding-left: 10px;
+  }
+
+.olimpoCuerpo p {
+  padding-left: 10px;
+  padding-right: 10px;
+  }
+
+.olimpoCuerpo h2 {
+  padding-left: 10px;
+  }
+
+.olimpoCuerpo h3 {
+  padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .olimpoCuerpo h1 {
+    font-size: x-large;
+    }
+    .olimpoCuerpo h2 {
+      font-size: large;
+    }
+    .olimpoCuerpo h3 {
+      font-size: medium;
+      }
+}
