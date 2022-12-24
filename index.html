@@ -1,71 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&display=swap');
     </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>Radio Presente - La voz del ex Olimpo</title>
 </head>
+
 <body>
     <header class="navegacion">
-        <img src="./img/logo-blanco.jpeg" alt="Logo">
-        <nav class="barra"> 
-            <a href="./index.html">Inicio</a>
-            <a href="./pages/laradio.html">La radio</a>
-            <a href="./pages/programacion.html">Programación</a>
-            <a href="./pages/sumate.html">Sumate a Presente</a>
-            <a href="./pages/exccdtyeolimpo.html">Ex CCDTyE Olimpo</a>  
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="./img/logo-blanco.jpeg" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        <a class="nav-link" href="./pages/laradio.html">La radio</a>
+                        <a class="nav-link" href="./pages/programacion.html">Programación</a>
+                        <a class="nav-link" href="./pages/sumate.html">Sumate a Presente</a>
+                        <a class="nav-link" href="./pages/exccdtyeolimpo.html">Ex CCDTyE Olimpo</a>
+                    </div>
+                </div>
+            </div>
         </nav>
         <div class="redes">
-            <a href="https://www.instagram.com/radio.presente/?hl=es" target="_blank"><img src="./img/instagram.png"></a>
+            <a href="https://www.instagram.com/radio.presente/?hl=es" target="_blank"><img
+                    src="./img/instagram.png"></a>
             <a href="https://www.facebook.com/presente.radio/" target="_blank"><img src="./img/facebook.png"></a>
             <a href="https://twitter.com/presenteradio?lang=es" target="_blank"><img src="./img/twitter.png"></a>
         </div>
         <div class="vivo">
-            <h3 class="animate__animated animate__jello"><a href="https://zeno.fm/radio/radiopresente/" target="_blank"> Escuchanos en vivo </a></h3>
-        </div>        
+            <h3><a href="https://zeno.fm/radio/radiopresente/" target="_blank">
+                    Escuchanos en vivo </a></h3>
+        </div>
     </header>
     <main>
-        <a class="laRadioIndex" href="./pages/laradio.html"><h1 class="animate__animated animate__zoomIn">LA RADIO</h1></a>
-        <div class="bannersIndexOne">
-            <div class="left">
+        <section>
+            <a class="laRadioIndex" href="./pages/laradio.html">
+                <h1 class="animate__animated animate__zoomIn">LA RADIO</h1>
+            </a>
+        </section>
+        <section class="juicioAbo">
+            <div class="bannerAbo">
+                <img src="./img/ABO.jpg" alt="Cobertura ABO">
             </div>
-            <div class="right">
-                <div class="colabora">
-                    <a href="https://cafecito.app/radiopresente" target="_blank"><h2>Colaborá con la comunicación comunitaria, alternativa y popular</h2></a>            
+            <div class="youtubeAbo">
+                <p>Junto con <strong>La Retaguardia</strong>, estamos llevando adelante la cobertura <strong>en
+                        vivo</strong> del juicio ABO V, en continuidad del
+                    juicio ABO I, II, III y IV.
+                    <strong>Los juicios Atlético, Banco y Olimpo (ABO) </strong> iniciaron el 24 de noviembre de 2009,
+                    para juzgar por delitos de
+                    lesa humanidad a exmilitares durante la Dictadura Cívico Militar que funcionaron de manera sucesiva,
+                    como un
+                    verdadero circuito represivo. </br>
+                    </br>
+                    <strong>Podés mirar y escuchar la primera audiencia del juicio dándole play, o clickeá en "Ver más"
+                        para ir al
+                        canal de YouTube:</strong>
+                </p>
+                <div class="youtubeLink">
+                    <iframe width="570" height="150" src="https://www.youtube.com/embed/jjKzQ8FRg0U"
+                        title="Juicio ABO V" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <a href="https://www.youtube.com/playlist?list=PLLUI-oDQznS8MW5W3VKQ6CK8wWEBJe4lR"
+                        target="_blank"><button type="button" class="btn btn-outline-danger">Ver más</button></a>
                 </div>
-                <div class="taller">
-                </div>
-            </div>   
-        </div>
-        <a class="ccdtyeIndex" href="./pages/exccdtyeolimpo.html"><h2 class="animate__animated animate__zoomIn">EL SITIO DE MEMORIA</h2></a>
-        <div class="bannersIndexTwo">
-            <div class="leftTwo">
             </div>
-            <div class="rightTwo">
-                <iframe width="550" height="500" src="https://www.youtube.com/embed/jjKzQ8FRg0U" title="Juicio ABO V" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>   
-        </div>
-        <a class="sumateIndex" href="./pages/sumate.html"><h2 class="animate__animated animate__zoomIn">SUMATE</h2></a>
+        </section>
+        <section>
+            <a class="ccdtyeIndex" href="./pages/exccdtyeolimpo.html">
+                <h2 class="animate__animated animate__zoomIn">EL SITIO DE MEMORIA</h2>
+            </a>
+        </section>
+        <section class="sectionBanners">
+            <div class="actividadesBannerText">
+                <h3><strong></strong>Próximas actividades</h3>
+                <br>Enterate de <strong>todo</strong> lo que venimos motorizando y acompañando desde Radio Presente.
+                </br>
+                </p>
+                <hr>
+                <div class="tallerBanner">
+                    <img src="./img/taller.png" alt="Taller de Radio">
+                    <p><strong>Taller de Radio para niños y niñas de 13 a 17 años. Se va a estar dictando los sábados de
+                            11.30 a 13.30.</strong></br>
+                        </br> Para anotarte, podes escribirnos a nuestras <strong>redes sociales</strong> o por
+                        <strong>WhatsApp al 11-34629639</strong>. También podes acercarte a nuestra radio de lunes a
+                        viernes de 9 a 20 hs.</br>
+                        </br> ¡Te esperamos!
+                    </p>
+                </div>
+            </div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/actividadesindex-1.jpg" class="d-block w-100" alt="Gatillo Fácil">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/actividadesindex-2.jpg" class="d-block w-100" alt="24 de marzo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/actividadesindex-3.jpg" class="d-block w-100" alt="Festival 15 años Ex Olimpo">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <aside class="aporteBanner">
+            <a href="https://cafecito.app/radiopresente" target="_blank">
+                <h2><strong>Clickeá e invitanos un cafecito.</br>
+                        Aportá a la comunicación comunitaria, alternativa y popular.
+                        </br>Aportá a Radio Presente</strong></h2>
+            </a>
+        </aside>
     </main>
     <footer class="piePagina">
         <div class="logoOlimpo">
-        <img src="./img/exolimpo.png" alt="ExOlimpo"></a>
+            <img src="./img/exolimpo.png" alt="ExOlimpo"></a>
         </div>
-        <div class= "direccion">
-            <p>Cnel. Ramón  <br> L. Falcón 4250, <br> C1407GST <br> CABA</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13130.901412752977!2d-58.4864229!3d-34.6363802!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe975b2db71775908!2sOlimpo!5e0!3m2!1ses!2sar!4v1670037244815!5m2!1ses!2sar" width="500" height="110" style="border: 0.5em;;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="direccion">
+            <p>Cnel. Ramón <br> L. Falcón 4250, <br> C1407GST <br> CABA</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13130.901412752977!2d-58.4864229!3d-34.6363802!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe975b2db71775908!2sOlimpo!5e0!3m2!1ses!2sar!4v1670037244815!5m2!1ses!2sar"
+                width="500" height="110" style="border: 0.5em;;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="logoPresente">
-        <img src="./img/logopng.png" alt="Radio Presente">
+            <img src="./img/logopng.png" alt="Radio Presente">
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

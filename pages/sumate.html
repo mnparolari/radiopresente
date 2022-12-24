@@ -1,37 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&display=swap');
     </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Radio Presente - La voz del ex Olimpo</title>
 </head>
+
 <body>
     <header>
         <section class="navegacion">
-            <img src="../img/logo-blanco.jpeg" alt="Logo">
-            <nav class="barra"> 
-                <a href="../index.html">Inicio</a>
-                <a href="./laradio.html">La radio</a>
-                <a href="./programacion.html">Programación</a>
-                <a href="./sumate.html">Sumate a Presente</a>
-                <a href="./exccdtyeolimpo.html">Ex CCDTyE Olimpo</a>  
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html"><img src="../img/logo-blanco.jpeg" alt="Logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                            <a class="nav-link" href="./laradio.html">La radio</a>
+                            <a class="nav-link" href="./programacion.html">Programación</a>
+                            <a class="nav-link active" aria-current="page" href="./sumate.html">Sumate a Presente</a>
+                            <a class="nav-link" href="./exccdtyeolimpo.html">Ex CCDTyE Olimpo</a>
+                        </div>
+                    </div>
+                </div>
             </nav>
             <div class="redes">
-                <a href="https://www.instagram.com/radio.presente/?hl=es" target="_blank"><img src="../img/instagram.png"></a>
+                <a href="https://www.instagram.com/radio.presente/?hl=es" target="_blank"><img
+                        src="../img/instagram.png"></a>
                 <a href="https://www.facebook.com/presente.radio/" target="_blank"><img src="../img/facebook.png"></a>
                 <a href="https://twitter.com/presenteradio?lang=es" target="_blank"><img src="../img/twitter.png"></a>
             </div>
             <div class="vivo">
-                <h3 class="animate__animated animate__jello">
-                <a href="https://zeno.fm/radio/radiopresente/" target="_blank"> Escuchanos en vivo </a>
+                <h3>
+                    <a href="https://zeno.fm/radio/radiopresente/" target="_blank"> Escuchanos en vivo </a>
                 </h3>
             </div>
         </section>
@@ -41,32 +55,32 @@
         </div>
         <section class="sumateCuerpo">
             <h1 class="animate__animated animate__fadeIn">Sumate a Presente</h1>
-            <p class="animate__animated animate__fadeIn">Llená el formulario y nos comunicaremos con vos. <br/>
-            <br/>
-            También podes escribirnos a radio.presente@gmail.com.ar <br/>
+            <p class="animate__animated animate__fadeIn">Llená el formulario y nos comunicaremos con vos. <br />
+                <br />
+                También podes escribirnos a radio.presente@gmail.com.ar <br/>
             </p>
         </section>
         <section class="sumateFormulario">
             <form action="Formulario" class="animate__animated animate__fadeIn">
                 <div>
                     <label for="nombre">Nombre:</label>
-                    <input type="text">
+                    <input class="text" type="text">
                 </div>
                 <div>
                     <label for="apellido">Apellido:</label>
-                    <input type="text">
+                    <input class="text" type="text">
                 </div>
                 <div>
                     <label for="telefono">Teléfono de contacto:</label>
-                    <input type="text">
+                    <input class="text" type="text">
                 </div>
                 <div>
                     <label for="email">Email de contacto:</label>
-                    <input type="text">
+                    <input class="text" type="text">
                 </div>
                 <div class="divSeparador">
                     <label for="Conocimiento">¿Cómo conociste la radio?</label></br>
-                    <label for="opcion1">Por recomendación</label> 
+                    <label for="opcion1">Por recomendación</label>
                     <input type="radio" name="recomendacion"> </br>
                     <label for="opcion2">Por militancia</label>
                     <input type="radio" name="militancia"></br>
@@ -105,20 +119,27 @@
                     <input type="submit">
                     <input type="reset">
                 </div>
-            </form>        
+            </form>
         </section>
     </main>
     <footer class="piePagina">
         <div class="logoOlimpo">
-        <img src="../img/exolimpo.png" alt="ExOlimpo"></a>
+            <img src="../img/exolimpo.png" alt="ExOlimpo"></a>
         </div>
         <div class="direccion">
-            <p>Cnel. Ramón  <br> L. Falcón 4250, <br> C1407GST <br> CABA</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13130.901412752977!2d-58.4864229!3d-34.6363802!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe975b2db71775908!2sOlimpo!5e0!3m2!1ses!2sar!4v1670037244815!5m2!1ses!2sar" width="500" height="110" style="border: 0.5em;;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p>Cnel. Ramón <br> L. Falcón 4250, <br> C1407GST <br> CABA</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13130.901412752977!2d-58.4864229!3d-34.6363802!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe975b2db71775908!2sOlimpo!5e0!3m2!1ses!2sar!4v1670037244815!5m2!1ses!2sar"
+                width="500" height="110" style="border: 0.5em;;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="logoPresente">
-        <img src="../img/logopng.png" alt="Radio Presente">
+            <img src="../img/logopng.png" alt="Radio Presente">
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
