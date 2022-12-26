@@ -102,7 +102,7 @@
 
 .juicioAbo {
   width: 100%;
-  height: 72vh;
+  height: 73vh;
   padding-left: 5px;
   display: flex;
   flex-direction: row;
@@ -214,6 +214,7 @@
 .aporteBanner {
   width: 100%;
   height: 150px;
+  margin-top: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -555,6 +556,7 @@
   height: 100%;
   font-family: "Encode Sans", sans-serif;
   background-color: rgba(107, 115, 113, 0.3);
+  padding-bottom: 15px;
 }
 
 .olimpoCuerpo h1 {
@@ -625,7 +627,7 @@
 
 .accordion-button {
   background-color: rgba(107, 115, 113, 0);
-  color: #75271fff
+  color: #75271fff;
 }
 
 .accordion-body {
@@ -874,6 +876,24 @@
   .laRadioQueHacemos p {
     text-align: center;
   }
+  .laRadioQueHacemos .gridContainer-1 .secondImage-1 {
+    transition: none;
+  }
+  .laRadioQueHacemos .gridContainer-1 .secondImage-1:hover {
+    transform: none;
+  }
+  .laRadioQueHacemos .gridContainer-2 .secondImage-2 {
+    transition: none;
+  }
+  .laRadioQueHacemos .gridContainer-2 .secondImage-2:hover {
+    transform: none;
+  }
+  .laRadioQueHacemos .gridContainer-3 .secondImage-3 {
+    transition: none;
+  }
+  .laRadioQueHacemos .gridContainer-3 .secondImage-3:hover {
+    transform: none;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -1005,9 +1025,9 @@
 
 /**----------CCDTYE----------**/
 @media screen and (max-width: 1075px) {
-.accordion-flush {
-  padding-right: 0px;
-  padding-left: 0px;
+  .accordion-flush {
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
 
