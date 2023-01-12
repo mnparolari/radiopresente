@@ -1,0 +1,521 @@
+/**----------------------------------MEDIA QUERY----------------------------------**/
+
+/**----------INDEX----------**/
+
+@media screen and (max-width: 1080px) {
+    main .juicioAbo {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .juicioAbo .bannerAbo img {
+        width: 100%;
+        height: 90%;
+        padding-top: 8px;
+    }
+
+    main .juicioAbo .youtubeAbo {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    main .juicioAbo .youtubeLink {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    main .juicioAbo .youtubeLink iframe {
+        width: 500px;
+        height: 300px;
+    }
+
+    .navegacion nav .container-fluid div .navbar-nav {
+        margin-left: 0px;
+    }
+
+    main .sectionBanners {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main .sectionBanners .actividadesBanners .actividadesBannerText {
+        width: 650px;
+    }
+
+    main .sectionBanners .actividadesBannerText .tallerBanner {
+        align-items: center;
+    }
+
+    main .sectionBanners #carouselExampleSlidesOnly {
+        background-color: rgba(107, 115, 113, 0.1);
+    }
+
+    main .sectionBanners #carouselExampleSlidesOnly .carousel-inner {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .navegacion nav .container-fluid div .navbar-nav a {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navegacion {
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navegacion .vivo {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    main .laRadioIndex a {
+        height: 300px;
+    }
+
+    main .laRadioIndex a h1 {
+        font-size: 3em;
+    }
+
+    main .ccdtyeIndex a {
+        height: 300px;
+    }
+
+    main .ccdtyeIndex a h2 {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 825px) {
+    main .aporteBanner a h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 815px) {
+    .piePagina {
+        flex-direction: column;
+        height: 300px;
+        align-items: center;
+    }
+
+    main .ccdtyeIndex a h2 {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 785px) {
+    main .juicioAbo .youtubeLink iframe {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    main .juicioAbo .youtubeLink iframe {
+        width: 500px;
+        height: 270px;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    main .sectionBanners .actividadesBannerText .tallerBanner {
+        flex-direction: column-reverse;
+        align-items: center;
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .piePagina .direccion iframe {
+        width: 300px;
+    }
+
+    main .laRadioIndex a {
+        height: 200px;
+    }
+
+    main .laRadioIndex a h1 {
+        font-size: 2em;
+    }
+
+    main .ccdtyeIndex a {
+        height: 200px;
+    }
+
+    main .ccdtyeIndex a h2 {
+        font-size: 1.5em;
+    }
+
+    main .sectionBanners .actividadesBannerText h3 {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    main .juicioAbo .youtubeLink {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .juicioAbo .youtubeLink iframe {
+        width: 400px;
+        height: 200px;
+    }
+
+    main .sectionBanners .actividadesBannerText .tallerBanner img {
+        width: 250px;
+        height: 200px;
+    }
+
+    main .sectionBanners #carouselExampleSlidesOnly {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    main .juicioAbo .youtubeLink iframe {
+        width: 350px;
+        height: 150px;
+    }
+
+    main .aporteBanner a h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .piePagina .direccion iframe {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    main .juicioAbo .youtubeLink iframe {
+        width: 350px;
+        height: 100px;
+    }
+}
+
+/**----------------------------------MEDIA QUERY----------------------------------**/
+
+/**----------LARADIO----------**/
+
+@media screen and (max-width: 1075px) {
+    main section .laRadioQueHacemos {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    main .laRadioCuerpo h1 {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    main .laRadioCuerpo p {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    main section .laRadioQueHacemos h2 {
+        text-align: center;
+    }
+
+    main section .laRadioQueHacemos p {
+        text-align: center;
+    }
+
+    main section .laRadioQueHacemos div .gridContainer-1 .secondImage-1 {
+        transition: none;
+    }
+
+    main section .laRadioQueHacemos div .gridContainer-1 .secondImage-1:hover {
+        transform: none;
+    }
+
+    main section .laRadioQueHacemos div .gridContainer-2 .secondImage-2 {
+        transition: none;
+    }
+
+    main section .laRadioQueHacemos div .gridContainer-2 .secondImage-2:hover {
+        transform: none;
+    }
+
+    main section .laRadioQueHacemos div .gridContainer-3 .secondImage-3 {
+        transition: none;
+    }
+
+    main section .laRadioQueHacemos div .gridContainer-3 .secondImage-3 :hover {
+        transform: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    main section .laRadioQueHacemos {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    main section .laRadioQueHacemos div h3 {
+        font-size: large;
+        padding-left: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    main section .laRadioQueHacemos div .gridContainer-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    main section .laRadioQueHacemos div .gridContainer-1 .principalImage-1 {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    main section .laRadioQueHacemos div .gridContainer-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    main section .laRadioQueHacemos div .gridContainer-2 .principalImage-2 {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    main section .laRadioQueHacemos div .gridContainer-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    main section .laRadioQueHacemos div .gridContainer-3 .principalImage-3 {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    main section .laRadioQueHacemos {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    main section .laRadioQueHacemos div h3 {
+        font-size: large;
+        padding-left: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    main section .laRadioQueHacemos h2 {
+        text-align: center;
+    }
+
+    main section .laRadioQueHacemos p {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    main .laRadioEncabezado {
+        height: 200px;
+    }
+
+    main .laRadioFoto {
+        height: 200px;
+    }
+}
+
+/**----------------------------------MEDIA QUERY----------------------------------**/
+
+/**----------PROGRAMACIÓN----------**/
+
+@media screen and (max-width: 1075px) {
+    main .programacion h1 {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    main .programacion .programacionText {
+        padding-left: 0px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    main .programacionCuerpo .programacionLunesViernes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    main .programacionCuerpo .programacionMartesJueves {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    main .programacionCuerpo .programacionSabadoDomingo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    main .programacion .programacionDias {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    main .programacionEncabezado {
+        height: 200px;
+    }
+}
+
+/**----------------------------------MEDIA QUERY----------------------------------**/
+
+/**----------SUMATE----------**/
+
+@media screen and (max-width: 1075px) {
+    main .sumateCuerpo h1 {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    main .sumateCuerpo p {
+        padding-left: 0px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    main .sumateFormulario {
+        padding-top: 70px;
+    }
+}
+
+@media screen and (max-width: 825px) {
+    main .sumateFormulario {
+        padding-top: 110px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    main .sumateEncabezado {
+        height: 200px;
+    }
+
+    main .sumateFormulario {
+        padding-top: 150px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main .sumateCuerpo h1 {
+        padding-left: 15px;
+    }
+
+    main .sumateCuerpo p {
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    main .sumateFormulario {
+        padding-top: 200px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    main .sumateFormulario {
+        padding-top: 220px;
+    }
+}
+
+/**----------------------------------MEDIA QUERY----------------------------------**/
+
+/**----------CCDTYE----------**/
+
+@media screen and (max-width: 1075px) {
+    main .olimpoCuerpo .accordion-flush {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    main .olimpoCuerpo h1 {
+        padding-left: 10px;
+    }
+
+    main .olimpoCuerpo p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    main .olimpoCuerpo h2 {
+        padding-left: 10px;
+    }
+
+    main .olimpoCuerpo .accordion-flush .accordion-item .accordion-header {
+        margin-right: 0px;
+    }
+
+    main .olimpoCuerpo .accordion-flush .accordion-item .accordion-body {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    main .olimpoEncabezado {
+        height: 200px;
+    }
+
+    main .olimpoFoto1 {
+        height: 200px;
+    }
+
+    main .olimpoFoto2 {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    main .olimpoCuerpo h1 {
+        font-size: x-large;
+    }
+
+    main .olimpoCuerpo h2 {
+        font-size: large;
+    }
+}

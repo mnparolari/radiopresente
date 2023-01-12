@@ -21,7 +21,7 @@
   justify-content: space-around;
 }
 
-.navegacion img {
+.navegacion .container-fluid a img {
   width: 80px;
   height: 80px;
 }
@@ -57,7 +57,7 @@
 }
 
 .navegacion .vivo h3 {
-  font-size: large;
+  font-size: 1.2rem;
 }
 
 .navegacion .vivo a {
@@ -76,7 +76,7 @@
 
 /**----------MAIN----------**/
 
-.laRadioIndex {
+.laRadioIndex a {
   width: 100%;
   height: 400px;
   background-image: url(../img/radio-walsh.jpeg);
@@ -91,7 +91,7 @@
   text-align: center;
 }
 
-.laRadioIndex h1 {
+.laRadioIndex a h1 {
   font-family: "Encode Sans", sans-serif;
   font-weight: bold;
   font-size: 5rem;
@@ -113,7 +113,7 @@
   width: 100%;
   opacity: 0.9;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
 }
 
 .juicioAbo .youtubeAbo {
@@ -148,7 +148,7 @@
   margin-top: 3px;
 }
 
-.ccdtyeIndex {
+.ccdtyeIndex a {
   width: 100%;
   height: 400px;
   background-image: url(../img/fondo.jpg);
@@ -163,7 +163,7 @@
   text-decoration: none;
 }
 
-.ccdtyeIndex h2 {
+.ccdtyeIndex a h2 {
   font-family: "Encode Sans", sans-serif;
   font-weight: bold;
   font-size: 3rem;
@@ -191,8 +191,8 @@
 }
 
 .sectionBanners .actividadesBannerText h3 {
-  font-size: 2rem;
-  color: rgb(146, 31, 19);
+  font-size: 1.5rem;
+  color: #921f13;
   font-weight: bold;
 }
 
@@ -226,15 +226,15 @@
   text-align: center;
 }
 
-.aporteBanner h2 {
+.aporteBanner a {
+  text-decoration: none;
+}
+
+.aporteBanner a h2 {
   font-family: "Encode Sans", sans-serif;
   font-size: 2rem;
   color: whitesmoke;
   background-color: rgba(107, 115, 113, 0.5);
-}
-
-.aporteBanner a {
-  text-decoration: none;
 }
 
 /**----------FOOTER----------**/
@@ -270,6 +270,7 @@
 
 .piePagina .direccion p {
   font-family: "Encode Sans", sans-serif;
+  color: #6b7371ff;
   text-align: center;
   font-weight: bold;
   padding-right: 3px;
@@ -306,7 +307,7 @@
 }
 
 .laRadioCuerpo h1 {
-  font-size: xx-large;
+  font-size: 2rem;
   padding-left: 200px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -338,6 +339,7 @@
 }
 
 .laRadioQueHacemos h2 {
+  font-size: 1.5rem;
   color: #75271fff;
   font-weight: bold;
 }
@@ -351,7 +353,7 @@
   color: #75271fff;
   padding-bottom: 10px;
   text-align: center;
-  font-size: x-large;
+  font-size: 1.5rem;
   text-decoration: underline;
   font-weight: bold;
 }
@@ -463,19 +465,91 @@
   background-position: center;
 }
 
-.programacionCuerpo {
+.programacion {
   font-family: "Encode Sans", sans-serif;
   background-color: rgba(107, 115, 113, 0.3);
   text-align: center;
+  padding-bottom: 10px;
 }
 
-.programacionCuerpo h1 {
-  font-size: xx-large;
+.programacion h1 {
+  font-size: 2rem;
+  color: #75271fff;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 230px;
+}
+
+.programacion .programacionText {
+  padding-left: 230px;
+}
+
+.programacionDias {
+  font-size: x-large;
+  font-weight: bold;
   color: #75271fff;
 }
 
-.programacionCuerpo img {
-  margin: 20px;
+.programacionProgramas {
+  padding: 5px;
+}
+
+.programacionLunesViernes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.programacionLunesViernes .programacionProgramas h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.programacionLunesViernes .programacionProgramas p {
+  text-align: center;
+}
+
+.programacionMartesJueves {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.programacionMartesJueves .programacionProgramas h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.programacionMartesJueves .programacionProgramas p {
+  text-align: center;
+}
+
+.programacionSabadoDomingo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.programacionSabadoDomingo .programacionProgramas h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.programacionSabadoDomingo .programacionProgramas p {
+  text-align: center;
 }
 
 /**----------------------------------SUMATE----------------------------------**/
@@ -499,15 +573,16 @@
 }
 
 .sumateCuerpo h1 {
-  font-size: xx-large;
+  font-size: 2rem;
+  font-weight: bold;
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 230px;
   color: #75271fff;
-  text-align: center;
 }
 
 .sumateCuerpo p {
-  text-align: center;
+  padding-left: 230px;
   margin: 0px;
 }
 
@@ -515,12 +590,8 @@
   font-family: "Encode Sans", sans-serif;
   background-color: rgba(107, 115, 113, 0.3);
   padding-bottom: 50px;
-  padding-left: 40%;
-}
-
-.sumateFormulario .divSeparador {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 30px;
+  text-align: center;
 }
 
 .sumateFormulario label {
@@ -533,8 +604,13 @@
   border-radius: 5px;
 }
 
+.sumateFormulario .divSeparador {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .sumateFormulario h3 {
-  font-size: large;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -560,7 +636,8 @@
 }
 
 .olimpoCuerpo h1 {
-  font-size: xx-large;
+  font-size: 2rem;
+  font-weight: bold;
   padding-left: 200px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -574,18 +651,11 @@
 }
 
 .olimpoCuerpo h2 {
-  font-size: x-large;
+  font-size: 1.5rem;
+  font-weight: bold;
   padding-left: 200px;
   padding-top: 30px;
   padding-bottom: 30px;
-  color: #75271fff;
-}
-
-.olimpoCuerpo h3 {
-  font-size: large;
-  padding-left: 200px;
-  padding-top: 10px;
-  padding-bottom: 10px;
   color: #75271fff;
 }
 
@@ -717,7 +787,7 @@
     margin-bottom: 10px;
   }
 
-  .laRadioIndex {
+  .laRadioIndex a {
     height: 300px;
   }
 
@@ -725,11 +795,11 @@
     font-size: 3em;
   }
 
-  .ccdtyeIndex {
+  .ccdtyeIndex a {
     height: 300px;
   }
 
-  .ccdtyeIndex h2 {
+  .ccdtyeIndex a h2 {
     font-size: 2em;
   }
 }
@@ -739,6 +809,7 @@
     font-size: 1.5rem;
   }
 }
+
 @media screen and (max-width: 815px) {
   .piePagina {
     flex-direction: column;
@@ -746,11 +817,7 @@
     align-items: center;
   }
 
-  .ccdtyeIndex h2 {
-    font-size: 2em;
-  }
-
-  .sumateIndex h2 {
+  .ccdtyeIndex a h2 {
     font-size: 2em;
   }
 }
@@ -782,19 +849,19 @@
     width: 300px;
   }
 
-  .laRadioIndex {
+  .laRadioIndex a {
     height: 200px;
   }
 
-  .laRadioIndex h1 {
+  .laRadioIndex a h1 {
     font-size: 2em;
   }
 
-  .ccdtyeIndex {
+  .ccdtyeIndex a {
     height: 200px;
   }
 
-  .ccdtyeIndex h2 {
+  .ccdtyeIndex a h2 {
     font-size: 1.5em;
   }
 
@@ -819,7 +886,7 @@
     height: 200px;
   }
 
-  .carrusel {
+  #carouselExampleSlidesOnly {
     width: 95%;
   }
 }
@@ -830,26 +897,21 @@
     height: 150px;
   }
 
-  .aporteBanner h2 {
+  .aporteBanner a h2 {
     font-size: 1.2rem;
   }
+}
 
-  @media screen and (max-width: 415px) {
-    .piePagina .direccion iframe {
-      width: 200px;
-    }
+@media screen and (max-width: 415px) {
+  .piePagina .direccion iframe {
+    width: 200px;
   }
 }
+
 @media screen and (max-width: 375px) {
   .juicioAbo .youtubeAbo .youtubeLink iframe {
     width: 350px;
-    height: 120px;
-  }
-}
-
-@media screen and (max-width: 350px) {
-  .sumateIndex h2 {
-    font-size: 1.5em;
+    height: 100px;
   }
 }
 
@@ -976,10 +1038,30 @@
 
 /**----------PROGRAMACIÓN----------**/
 
-@media screen and (max-width: 1075px) {
-  .programacionCuerpo img {
-    width: 100%;
-    margin: 0px;
+@media screen and (max-width: 900px) {
+  .programacionLunesViernes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .programacionMartesJueves {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .programacionSabadoDomingo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .programacionDias h2 {
+    text-align: center;
   }
 }
 
@@ -989,35 +1071,64 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  .programacionCuerpo h1 {
-    font-size: x-large;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .programacionCuerpo h1 {
-    font-size: large;
-  }
-}
-
 /**----------------------------------MEDIA QUERY----------------------------------**/
 
 /**----------SUMATE----------**/
+
+@media screen and (max-width: 1075px) {
+  .sumateCuerpo h1 {
+      padding-left: 0px;
+      text-align: center;
+  }
+
+  .sumateCuerpo p {
+      padding-left: 0px;
+      text-align: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .sumateFormulario {
+      padding-top: 70px;
+  }
+}
+
+@media screen and (max-width: 825px) {
+  .sumateFormulario {
+      padding-top: 110px;
+  }
+}
+
 @media screen and (max-width: 610px) {
   .sumateEncabezado {
-    height: 200px;
+      height: 200px;
+  }
+
+  .sumateFormulario {
+      padding-top: 150px;
+      padding-bottom: 20px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .sumateCuerpo h1 {
-    text-align: left;
-    padding-left: 15px;
+      padding-left: 15px;
   }
+
   .sumateCuerpo p {
-    text-align: left;
-    padding-left: 15px;
+      padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .sumateFormulario {
+      padding-top: 200px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .sumateFormulario {
+      padding-top: 220px;
   }
 }
 
@@ -1040,9 +1151,6 @@
     padding-right: 10px;
   }
   .olimpoCuerpo h2 {
-    padding-left: 10px;
-  }
-  .olimpoCuerpo h3 {
     padding-left: 10px;
   }
   .accordion-header {
@@ -1072,8 +1180,5 @@
   }
   .olimpoCuerpo h2 {
     font-size: large;
-  }
-  .olimpoCuerpo h3 {
-    font-size: medium;
   }
 }

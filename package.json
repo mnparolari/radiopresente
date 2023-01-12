@@ -1,0 +1,25 @@
+{
+  "name": "radiopresente",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\"> Radio Presente </h1>\r <h3 align=\"center\"> La voz del Ex Olimpo </h3>\r <img src=\"./img/radio-flor.jpeg\" alt=\"Logo\">\r <h2 align=\"center\">Hi 👋, I'm Martín Nicolás Parolari</h2>\r <h3 align=\"center\">This project is intended, totally ad honorem and for social commitment, to work on the website of a community, alternative and popular radio station in Buenos Aires, Argentina that works inside a former Clandestine Center for Detention, Torture and Extermination called Olimpo, now recovered as a site of memory. . For those who do not know about the history, the Ex CCDTyE were places used to torture, interrogate, rape, hold illegally detained and eventually murder people, and they operated during the last military dictatorship in Argentina between 1975 and 1983. For all this, the operation of a radio is symbolically important; to give voice, to give life to a space in which there was, for many years, a lot of death.</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnparolari/radiopresente.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnparolari/radiopresente/issues"
+  },
+  "homepage": "https://github.com/mnparolari/radiopresente#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}

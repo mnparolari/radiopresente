@@ -1,0 +1,169 @@
+/**----------------------------------lARADIO----------------------------------**/
+
+/**----------MAIN----------**/
+main {
+  .laRadioEncabezado {
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/radio-walsh.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .laRadioCuerpo {
+    font-family: $font-principal;
+    background-color: nth($colors-background, 2);
+
+    h1 {
+      font-size: nth($font-size, 3);
+      padding-left: 230px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      color: nth($colors, 2);
+      font-weight: bold;
+    }
+
+    p {
+      padding-left: 230px;
+    }
+  }
+
+  .laRadioFoto {
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/radio-dentro.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  section {
+    .laRadioQueHacemos {
+      font-family: $font-principal;
+      background-color: nth($colors-background, 2);
+      padding-left: 230px;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      padding-right: 200px;
+
+      h2 {
+        color: nth($colors, 2);
+        font-weight: bold;
+        font-size: nth($font-size, 2);
+      }
+
+      p {
+        padding-top: 10px;
+        padding-bottom: 20px;
+      }
+
+      div {
+        h3 {
+          color: nth($colors, 2);
+          padding-bottom: 10px;
+          text-align: center;
+          font-size: nth($font-size, 1);
+          text-decoration: underline;
+          font-weight: bold;
+          padding-top: 10px;
+        }
+
+        .gridContainer-1 {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          grid-template-rows: 1fr 1fr;
+
+          .principalImage-1 {
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start: 2;
+            grid-column-end: 4;
+
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+
+          .secondImage-1 {
+            transition: 2s;
+
+            &:hover {
+              transform: scale(1.3);
+            }
+
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+      }
+
+      .gridContainer-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        .principalImage-2 {
+          grid-row-start: 1;
+          grid-row-end: 3;
+          grid-column-start: 1;
+          grid-column-end: 3;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .secondImage-2 {
+          transition: 2s;
+
+          &:hover {
+            transform: scale(1.3);
+          }
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+
+    .gridContainer-3 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+
+      .principalImage-3 {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 3;
+        grid-column-end: 5;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .secondImage-3 {
+        transition: 2s;
+
+        &:hover {
+          transform: scale(1.3);
+        }
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}

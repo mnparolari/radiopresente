@@ -1,0 +1,55 @@
+/**----------------------------------INDEX----------------------------------**/
+
+/**----------FOOTER----------**/
+
+.piePagina {
+  width: 100%;
+  height: 130px;
+  background-color: nth($colors-background,4);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .logoOlimpo {
+    img {
+      width: 130px;
+      height: 100px;
+      transition: 4s;
+
+      &:hover {
+        transform: rotateY(360deg);
+      }
+    }
+  }
+
+  .direccion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: black 1px solid;
+
+    p {
+      font-family: $font-principal;
+      color: nth($colors, 1);
+      text-align: center;
+      font-weight: bold;
+      padding-right: 3px;
+      padding-left: 3px;
+    }
+  }
+
+  .logoPresente {
+    img {
+      width: 70px;
+      height: 70px;
+      transition: 4s;
+
+      &:hover {
+        transform: rotateY(360deg);
+      }
+    }
+  }
+}
