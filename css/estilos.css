@@ -752,7 +752,7 @@ main .olimpoFoto2 {
   main .programacion h1 {
     padding-left: 0px;
     text-align: center; }
-  main .programacion .programacionText {
+  main .programacion #programacionText {
     padding-left: 0px;
     text-align: center; } }
 
