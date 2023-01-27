@@ -21,7 +21,7 @@ main {
     h1 {
       font-size: nth($font-size, 3);
       font-weight: bold;
-      padding-left: 230px;
+      padding-left: 245px;
       padding-top: 30px;
       padding-bottom: 30px;
       color: nth($colors, 2);
@@ -30,14 +30,14 @@ main {
     h2 {
       font-size: nth($font-size, 2);
       font-weight: bold;
-      padding-left: 230px;
+      padding-left: 245px;
       padding-top: 30px;
       padding-bottom: 30px;
       color: nth($colors, 2);
     }
 
     p {
-      padding-left: 230px;
+      padding-left: 245px;
       padding-right: 200px;
       margin: 0px;
     }
@@ -58,12 +58,18 @@ main {
           .accordion-button {
             background-color: nth($colors-background, 5);
             color: nth($colors, 2);
+            border: 0;
+
+            &:focus {
+              box-shadow: none;
+              outline: none;
+            }
           }
         }
 
         .accordion-body {
-          padding-left: 230px;
-          padding-right: 230px;
+          margin-left: 245px;
+          margin-right: 245px;
         }
       }
     }

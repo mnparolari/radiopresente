@@ -17,13 +17,25 @@ main {
     background-color: nth($colors-background, 2);
     padding-bottom: 10px;
 
-    h1 {
-      font-size: nth($font-size, 3);
-      color: nth($colors, 2);
-      font-weight: bold;
-      padding-top: 30px;
-      padding-bottom: 30px;
-      padding-left: 230px;
+    div {
+      h1 {
+        font-size: nth($font-size, 3);
+        color: nth($colors, 2);
+        font-weight: bold;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 245px;
+      }
+
+      #programacionText {
+        padding-left: 245px;
+
+        a {
+          color: nth($colors, 1);
+          text-decoration: underline;
+          font-weight: bold;
+        }
+      }
     }
 
     .programacionDias {
@@ -31,85 +43,126 @@ main {
       font-weight: bold;
       color: nth($colors, 2);
       text-align: center;
-      padding-top: 30px;
+      margin-top: 30px;
     }
 
-    #programacionText {
-      padding-left: 230px;
-
-      a {
-        color: nth($colors, 1);
-        text-decoration: underline;
-        font-weight: bold;
-      }
-    }
-  }
-
-  .programacionLunesViernes {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-    .programacionProgramas {
-      padding: 5px;
-
-      h3 {
-        font-size: nth($font-size, 1);
-        font-weight: bold;
-        text-align: center;
+    .programacionCuerpo {
+      .carousel {
+        display: none;
       }
 
-      p {
-        text-align: center;
-      }
-    }
-  }
+      .programacionLunesViernes {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
 
-  .programacionMartesJueves {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+        .programacionProgramas {
+          padding: 5px;
 
-    .programacionProgramas {
-      padding: 5px;
+          a {
+            color: nth($colors, 5);
+            text-decoration: none;
 
-      h3 {
-        font-size: nth($font-size, 1);
-        font-weight: bold;
-        text-align: center
-      }
+            h3 {
+              font-size: nth($font-size, 1);
+              font-weight: bold;
+              text-align: center;
+            }
+          }
 
-      p {
-        text-align: center;
-      }
-    }
-  }
+          p {
+            text-align: center;
+          }
 
-  .programacionSabadoDomingo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+          a {
+            img {
+              transition: 2s;
 
-    .programacionProgramas {
-      padding: 5px;
-
-      h3 {
-        font-size: nth($font-size, 1);
-        font-weight: bold;
-        text-align: center
+              &:hover {
+                transform: scale(1.1);
+              }
+            }
+          }
+        }
       }
 
-      p {
-        text-align: center;
+      .programacionMartesJueves {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        .programacionProgramas {
+          padding: 5px;
+
+          a {
+            color: nth($colors, 5);
+            text-decoration: none;
+
+            h3 {
+              font-size: nth($font-size, 1);
+              font-weight: bold;
+              text-align: center;
+            }
+          }
+
+          p {
+            text-align: center;
+          }
+
+          a {
+            img {
+              transition: 2s;
+
+              &:hover {
+                transform: scale(1.1);
+              }
+            }
+          }
+        }
+      }
+
+      .programacionSabadoDomingo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        .programacionProgramas {
+          padding: 5px;
+
+          a {
+            color: nth($colors, 5);
+            text-decoration: none;
+
+            h3 {
+              font-size: nth($font-size, 1);
+              font-weight: bold;
+              text-align: center;
+            }
+          }
+
+          p {
+            text-align: center;
+          }
+
+          a {
+            img {
+              transition: 2s;
+
+              &:hover {
+                transform: scale(1.1);
+              }
+            }
+          }
+        }
       }
     }
   }

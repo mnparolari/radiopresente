@@ -11,7 +11,7 @@ main {
       background-attachment: fixed;
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: center center;
+      background-position: center;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -21,17 +21,17 @@ main {
       h1 {
         font-family: $font-principal;
         font-weight: bold;
-        font-size: nth($font-size,5);
+        font-size: nth($font-size, 5);
         text-align: center;
-        color: nth($colors,3);
-        background-color: nth($colors-background,3);
+        color: nth($colors, 3);
+        background-color: nth($colors-background, 3);
       }
     }
   }
 
   .juicioAbo {
     width: 100%;
-    height: 73vh;
+    height: 70vh;
     padding-left: 5px;
     display: flex;
     flex-direction: row;
@@ -56,7 +56,8 @@ main {
 
       p {
         font-family: $font-principal;
-        background-color: nth($colors-background,1);
+        font-size: 1em;
+        background-color: nth($colors-background, 1);
         padding: 5px;
       }
     }
@@ -64,16 +65,22 @@ main {
     .youtubeLink {
       display: flex;
       flex-direction: column;
-      align-items: flex-end;
+      align-items: center;
+      justify-content: center;
 
       iframe {
-        width: 100%;
+        width: 180%;
+        height: 150px;
         border: white 1px solid;
       }
 
       a {
         button {
           margin-top: 3px;
+          color: nth($colors, 1);
+          border-color: nth($colors, 2);
+          background-color: nth($colors, 2);
+          font-weight: bold;
         }
       }
     }
@@ -88,7 +95,7 @@ main {
       background-attachment: fixed;
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: center center;
+      background-position: center;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -97,10 +104,10 @@ main {
       h2 {
         font-family: $font-principal;
         font-weight: bold;
-        font-size: nth($font-size,4);
+        font-size: nth($font-size, 4);
         text-align: center;
-        color: nth($colors,3);
-        background-color: nth($colors-background,3);
+        color: nth($colors, 3);
+        background-color: nth($colors-background, 3);
       }
     }
   }
@@ -112,8 +119,8 @@ main {
 
     .actividadesBannerText {
       font-family: $font-principal;
-      color: nth($colors,2);
-      background-color: nth($colors-background,1);
+      color: nth($colors, 2);
+      background-color: nth($colors-background, 1);
       margin: 10px;
       text-align: center;
       grid-column-start: 1;
@@ -122,8 +129,8 @@ main {
       grid-row-end: 3;
 
       h3 {
-        font-size: nth($font-size,3);
-        color: nth($colors,4);
+        font-size: nth($font-size, 3);
+        color: nth($colors, 4);
         font-weight: bold;
       }
 
@@ -163,9 +170,9 @@ main {
 
       h2 {
         font-family: $font-principal;
-        font-size: nth($font-size,3);
-        color: nth($colors,3);
-        background-color: nth($colors-background,3);
+        font-size: nth($font-size, 3);
+        color: nth($colors, 3);
+        background-color: nth($colors-background, 3);
       }
     }
   }

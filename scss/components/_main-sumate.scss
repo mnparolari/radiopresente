@@ -5,11 +5,11 @@ main {
   .sumateEncabezado {
     width: 100%;
     height: 300px;
-    background-image: url(../img/radio-noche.jpeg);
+    background-image: url(../img/micwalsh.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
   }
 
   .sumateCuerpo {
@@ -23,11 +23,11 @@ main {
       color: nth($colors, 2);
       padding-top: 30px;
       padding-bottom: 30px;
-      padding-left: 230px;
+      padding-left: 245px;
     }
 
     p {
-      padding-left: 230px;
+      padding-left: 245px;
       margin: 0px;
     }
   }
@@ -35,28 +35,125 @@ main {
   .sumateFormulario {
     font-family: $font-principal;
     background-color: nth($colors-background, 2);
-    padding-top: 30px;
-    padding-bottom: 50px;
-    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
 
-    label {
-      padding: 3px;
-    }
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
 
-    .text {
-      width: 150px;
-      height: 23px;
-      border-radius: 5px;
-    }
-  }
+      .datosPersonales {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
 
-  .divSeparador {
-    padding-top: 10px;
-    padding-bottom: 10px;
+        .row {
+          .col {
+            .form-control {
+              border: 0;
 
-    h3 {
-      font-size: nth($font-size, 1);
-      font-weight: bold;
+              &:focus {
+                box-shadow: none;
+                outline: none;
+              }
+            }
+          }
+        }
+      }
+
+      .datosGenerales {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        .datosRadio {
+          margin-right: 100px;
+
+          .form-check {
+            .form-check-input {
+              cursor: pointer;
+              background-color: #fff;
+              appearance: none;
+              border: 0;
+
+              &:checked {
+                background-color: nth($colors, 2);
+              }
+
+              &:focus {
+                box-shadow: none;
+                outline: none;
+              }
+            }
+          }
+        }
+
+        .diasHorariosFlex {
+          .datosDias {
+            padding-bottom: 20px;
+
+            .form-select {
+              border: 0;
+
+              &:focus {
+                box-shadow: none;
+                outline: none;
+              }
+            }
+          }
+
+          .datosHorarios {
+            .form-select {
+              border: 0;
+
+              &:focus {
+                box-shadow: none;
+                outline: none;
+              }
+            }
+          }
+        }
+      }
+
+      .datosTextarea {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .form-floating {
+          border: 0;
+
+          .form-control {
+            width: 500px;
+            height: 200px;
+            border: 0;
+
+            &:focus {
+              box-shadow: none;
+              outline: none;
+            }
+          }
+        }
+      }
+
+      .datosEnviar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+
+        .btn-primary {
+          color: nth($colors, 1);
+          border-color: nth($colors, 2);
+          background-color: nth($colors, 2);
+          font-weight: bold;
+        }
+      }
     }
   }
 }

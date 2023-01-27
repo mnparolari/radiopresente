@@ -4,15 +4,85 @@
 
 .piePagina {
   width: 100%;
-  height: 130px;
-  background-color: nth($colors-background,4);
+  height: 310px;
+  background-color: nth($colors-background, 4);
+  font-family: $font-principal;
   background-size: cover;
   background-position: center;
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   align-items: center;
 
+  .direccion {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+  }
+
+  .redesFooter {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    align-items: center;
+    margin-left: 30px;
+
+    h6 {
+      color: nth($colors, 5);
+      font-weight: bold;
+    }
+
+    a {
+      img {
+        height: 40px;
+        width: 40px;
+        transition: 1s;
+
+        &:hover {
+          transform: scale(1.5);
+        }
+      }
+    }
+  }
+
+  .amarcArg {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    align-items: center;
+
+    h6 {
+      color: nth($colors, 5);
+      font-weight: bold;
+      padding-left: 70px;
+      margin-right: 30px;
+    }
+
+    img {
+      width: 230px;
+      height: 80px;
+      padding-left: 70px;
+      margin-right: 40px;
+      text-align: center;
+    }
+  }
+
   .logoOlimpo {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: center;
+    align-items: center;
+
     img {
       width: 130px;
       height: 100px;
@@ -24,24 +94,14 @@
     }
   }
 
-  .direccion {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border: black 1px solid;
-
-    p {
-      font-family: $font-principal;
-      color: nth($colors, 1);
-      text-align: center;
-      font-weight: bold;
-      padding-right: 3px;
-      padding-left: 3px;
-    }
-  }
-
   .logoPresente {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: center;
+    align-items: center;
+
     img {
       width: 70px;
       height: 70px;
